@@ -1,13 +1,11 @@
 body {
   color: #333232;
-  text-align: center;
   margin-top: 3em;
-  font-size: 3em;
   font-family: Roboto, sans-serif;
 }
 
 .background {
-  background-image: url("bitcoin.png");
+  background-image: url("bitcoin.jpg");
   background-size: cover;
   z-index: -99;
   position: absolute;
