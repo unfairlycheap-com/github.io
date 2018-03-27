@@ -1,11 +1,16 @@
 body {
   color: #333232;
-  margin-top: 3em;
-  font-family: Roboto, sans-serif;
+}
+
+.d-flex {
+  height: 100vh;
 }
 
 .background {
-  background-image: url("bitcoin.jpg");
+  background-image: url("roger-ver.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   z-index: -99;
   position: absolute;
@@ -17,4 +22,25 @@ body {
   min-width: 50%;
   min-height: 50%;
   opacity: 0.2;
+}
+
+@media (max-width: 768px) {
+  p:first-child {
+    font-size: 2.5rem;
+  }
+  h1 {
+    font-size: 4rem !important;
+  }
+  p:last-child {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  p:first-child {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem !important;
+  }
 }
